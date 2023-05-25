@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #282828;
+}
+
+@layer components {
+  .container {
+    margin: 0 auto;
+  }
+}
