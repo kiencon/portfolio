@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #282828;
+}
+
+@layer components {
+  .container-full {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}
