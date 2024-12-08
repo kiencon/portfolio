@@ -4,7 +4,7 @@ USER node
 
 WORKDIR /home/next/app
 
-#COPY --chown=node:node package-lock.json package.json ./
+COPY --chown=node:node package.json ./
 
 RUN npm install
 
